@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.labels
+{
+    color: white;
+    width: 100%;
+    padding-left: 30px;
+}
+input
+{
+    width: 98%;
+    background-color: rgba(75, 69, 38, 0.658);
+    border-bottom: 2px solid rgb(200, 131, 10);
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+}
+.submitButton
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+    background-color: rgba(75, 69, 38, 0.658);
+    border: 2px solid rgb(200, 131, 10);
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+}
+.css-wb57ya-MuiFormControl-root-MuiTextField-root { 
+border-bottom: 2px solid rgb(200, 131, 10) !important;  
+background-color: rgba(75, 69, 38, 0.658) !important;
+padding-top: 10px !important;
+/* height: 35px !important; */
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+color: rgba(0, 0, 0, 0)  !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
